@@ -61,7 +61,7 @@ body {
     margin: auto;
     padding-left: 1.4em;
     padding-right: 1.4em;
-    max-width: 810px;
+    max-width: 710px;
     background-color: #292522;
     color: #ECE1D7;
 }
@@ -79,6 +79,24 @@ a {
     background: none;
     border: 0;
     font-variant-ligatures: none;
+}
+
+.abstract {
+    text-align: justify;
+    text-align-last: center;
+}
+
+pre.ascii {
+    width: fit-content;
+    margin: 0 auto;
+    white-space: pre;
+    overflow-x: auto;
+    line-height: 1.1;
+    font-variant-ligatures: none;
+}
+
+header {
+    text-align: center;
 }
 
 time {
