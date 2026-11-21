@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2026-11-20T19:48:38-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/references/</loc>
+    <loc>//localhost:1313/references/</loc>
     <lastmod>2026-11-20T19:47:01-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/data/</loc>
+    <loc>//localhost:1313/data/</loc>
     <lastmod>2026-11-20T19:46:55-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posters/</loc>
+    <loc>//localhost:1313/posters/</loc>
     <lastmod>2026-11-20T19:46:49-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/paper/</loc>
+    <loc>//localhost:1313/paper/</loc>
     <lastmod>2026-11-20T19:46:44-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2026-11-20T19:46:13-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
