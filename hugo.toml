@@ -1,0 +1,44 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Semantic Segmentation of Martian Terrain'
+theme = 'hugo-bearcub'
+copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  custom_css = ["assets/css/styles.css"]
+  madeWith = "Made with [Hugo](https://gohugo.io)"
+
+[[menus.main]]
+  name = "Overview"
+  pageRef = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "Paper"
+  pageRef = "/paper"
+  weight = 20
+
+[[menus.main]]
+  name = "Posters"
+  pageRef = "/posters"
+  weight = 30
+
+[[menus.main]]
+  name = "Data"
+  pageRef = "/data"
+  weight = 40
+
+[[menus.main]]
+  name = "References"
+  pageRef = "/references"
+  weight = 50
+
+[[menus.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 60

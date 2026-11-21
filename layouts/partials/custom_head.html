@@ -1,0 +1,7 @@
+<!-- A partial to be overwritten by the user.
+  Simply place a custom_head.html into
+  your local /layouts/partials-directory -->
+
+{{ with resources.Get "css/custom.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}

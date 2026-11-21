@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Semantic Segmentation of Martian Terrain</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Semantic Segmentation of Martian Terrain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Warren, Noah, Isaac, Nora (C) 2026</copyright>
+    <lastBuildDate>Fri, 20 Nov 2026 19:48:38 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>References</title>
+      <link>http://localhost:1313/references/</link>
+      <pubDate>Fri, 20 Nov 2026 19:47:01 -0600</pubDate>
+      <guid>http://localhost:1313/references/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Dustification</title>
+      <link>http://localhost:1313/data/</link>
+      <pubDate>Fri, 20 Nov 2026 19:46:55 -0600</pubDate>
+      <guid>http://localhost:1313/data/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Posters</title>
+      <link>http://localhost:1313/posters/</link>
+      <pubDate>Fri, 20 Nov 2026 19:46:49 -0600</pubDate>
+      <guid>http://localhost:1313/posters/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Paper</title>
+      <link>http://localhost:1313/paper/</link>
+      <pubDate>Fri, 20 Nov 2026 19:46:44 -0600</pubDate>
+      <guid>http://localhost:1313/paper/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 20 Nov 2026 19:46:13 -0600</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;warren-kozak&#34;&gt;Warren Kozak&lt;/h1&gt;&#xA;&lt;h1 id=&#34;noah-lee&#34;&gt;Noah Lee&lt;/h1&gt;&#xA;&lt;h1 id=&#34;nora-wootten&#34;&gt;Nora Wootten&lt;/h1&gt;&#xA;&lt;h1 id=&#34;isaac-lund&#34;&gt;Isaac Lund&lt;/h1&gt;</description>
+      <content:encoded><![CDATA[<h1 id="warren-kozak">Warren Kozak</h1>
+<h1 id="noah-lee">Noah Lee</h1>
+<h1 id="nora-wootten">Nora Wootten</h1>
+<h1 id="isaac-lund">Isaac Lund</h1>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
