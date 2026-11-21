@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Semantic Segmentation of Martian Terrain'
 theme = 'hugo-bearcub'
