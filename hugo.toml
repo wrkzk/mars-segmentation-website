@@ -20,7 +20,7 @@ copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
 
 [[menus.main]]
   name = "Paper"
-  url = "/paper.pdf"
+  url = "/docs/paper.pdf"
   weight = 20
 
 [[menus.main]]
