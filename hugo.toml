@@ -26,8 +26,9 @@ relativeURLs = true
 [[menus.main]]
   name = "Paper"
   url = "/docs/paper.pdf"
-  target = "_blank"
   weight = 20
+  [menus.main.params]
+    target = "_blank"
 
 [[menus.main]]
   name = "Posters"
