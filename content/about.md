@@ -8,6 +8,10 @@ title = ''
 
 #### Warren Kozak
 
+<img class="profile" src="/docs/warren-profile.png" alt="A photo of Warren at Carleton College">
+
+Hello, I'm Warren, and a senior math and computer science major. I was mainly responsible for the implementation decisions, training, and evaluation of U-Net throughout this project. Here at Carleton, I am a captain of the varsity swim & dive team, and I enjoy spending time in the arboretum. Please reach out if you have any questions about our comps project!
+
 #### Noah Lee
 
 <img class="profile" src="/docs/noah_photo.jpg" alt="Noah wearing the NCAA XC nationals beanie">
