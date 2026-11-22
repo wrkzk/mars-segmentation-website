@@ -95,10 +95,28 @@ pre.ascii {
     font-variant-ligatures: none;
 }
 
+header nav::before {
+    content: "Warren Kozak   Noah Lee   Isaac Lund   Nora Wootten";
+    white-space: pre-wrap;
+    display: block;
+    text-align: center;
+    font-size: 1.05em;
+    opacity: 0.8;
+    margin-bottom: 1.4em;
+}
+
 header {
     text-align: center;
 }
 
 time {
   display: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }

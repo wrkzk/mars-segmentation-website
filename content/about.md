@@ -1,13 +1,15 @@
 +++
 date = '2026-11-20T19:46:13-06:00'
 draft = false
-title = 'About'
+title = ''
 +++
 
-# Warren Kozak
+## About the Authors
 
-# Noah Lee
+#### Warren Kozak
 
-# Nora Wootten
+#### Noah Lee
 
-# Isaac Lund
+#### Nora Wootten
+
+#### Isaac Lund

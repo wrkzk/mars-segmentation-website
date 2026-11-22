@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Semantic Segmentation of Martian Terrain'
+title = 'Reduced-Visibility Semantic Segmentation of Martian Terrain'
 theme = 'hugo-bearcub'
 copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
 
@@ -12,6 +12,7 @@ copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
 [params]
   custom_css = ["assets/css/styles.css"]
   madeWith = "Made with [Hugo](https://gohugo.io)"
+  favicon = "favicon.png"
 
 [[menus.main]]
   name = "Overview"
@@ -29,16 +30,21 @@ copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
   weight = 30
 
 [[menus.main]]
-  name = "Data"
-  pageRef = "/data"
+  name = "Code"
+  url = "https://github.com/noazlee/cs400_image_segmentation"
   weight = 40
+
+[[menus.main]]
+  name = "Data"
+  url = "https://data.nasa.gov/dataset/ai4mars-a-dataset-for-terrain-aware-autonomous-driving-on-mars"
+  weight = 50
 
 [[menus.main]]
   name = "References"
   pageRef = "/references"
-  weight = 50
+  weight = 60
 
 [[menus.main]]
   name = "About"
   pageRef = "/about"
-  weight = 60
+  weight = 70
