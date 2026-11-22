@@ -25,6 +25,7 @@ copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
 [[menus.main]]
   name = "Paper"
   url = "/docs/paper.pdf"
+  target = "_blank"
   weight = 20
 
 [[menus.main]]
