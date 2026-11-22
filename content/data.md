@@ -6,7 +6,7 @@ title = ''
 
 ## Data
 
-In order to test the question of "how robust are our models to dust?", we need a dusty image set as well as a labelled ground truth to evaluate the predictions on. It would also be useful to have categories of light, medium and heavy dust to measure how predictions are affected by worse distortions. The dataset we are working with is the [AI4Mars](https://data.nasa.gov/dataset/ai4mars-a-dataset-for-terrain-aware-autonomous-driving-on-mars) dataset, which consists of mostly clear images. Our goal is to 'dustify' this dataset to obtain additional dusty datasets to evaluate and compare our models on:
+In order to test the question of "how robust are our models to dust?", we need a dusty image set as well as a labelled ground truth to evaluate the predictions on. It would also be useful to have categories of light, medium and heavy dust to measure how predictions are affected by worse distortions. The dataset we are working with is the <a href="https://data.nasa.gov/dataset/ai4mars-a-dataset-for-terrain-aware-autonomous-driving-on-mars" target="_blank">AI4Mars</a> dataset, which consists of mostly clear images. Our goal is to 'dustify' this dataset to obtain additional dusty datasets to evaluate and compare our models on:
 
 | Dataset | Dust level |
 |---|---|
@@ -17,7 +17,7 @@ In order to test the question of "how robust are our models to dust?", we need a
 
 ### 1. Source images: AI4Mars
 
-We gathered data from the AI4Mars dataset provided for open access by [NASA](https://data.nasa.gov/dataset/ai4mars-a-dataset-for-terrain-aware-autonomous-driving-on-mars). This dataset includes ~35,000 images of Martian terrain captured by the *Curiosity*, *Opportunity*, and *Spirit* rovers. Classes for the images are soil, sand, big rock, and bedrock. The ground truth segmentations for these images were labeled via crowd sourcing and required three participants' agreement for each pixel to receive a classification. For this project, we used only the ~16,000 images from *Curiosity*'s (MSL) NavCam subset.
+We gathered data from the AI4Mars dataset provided for open access by <a href="https://data.nasa.gov/dataset/ai4mars-a-dataset-for-terrain-aware-autonomous-driving-on-mars" target="_blank">NASA</a>. This dataset includes ~35,000 images of Martian terrain captured by the *Curiosity*, *Opportunity*, and *Spirit* rovers. Classes for the images are soil, sand, big rock, and bedrock. The ground truth segmentations for these images were labeled via crowd sourcing and required three participants' agreement for each pixel to receive a classification. For this project, we used only the ~16,000 images from *Curiosity*'s (MSL) NavCam subset.
 
 <img src="/docs/sem_overlay.png" alt="Example image from AI4Mars">
 
@@ -51,7 +51,7 @@ In words, the algorithm:
 
 <img src="/docs/dust_filter_tool_comparison.png" alt="Dust filter range-selection Flask app">
 
-To more empirically find ranges for each parameter, we created the Flask app shown above. The left image is a clean Mars photo from the AI4Mars dataset. The right photo is a dusty image from the [Mars32K](https://figshare.com/articles/dataset/Mars32K_Clean_Dusty_Subsets_for_Dusty_Mars_Rover_Image_Restoration/33439624?file=68224333) dataset. The middle image is adjustable by the parameter sliders below. The goal is for the user to adjust the settings to replicate the dust appearance on the right. After submitting, the parameter values were stored in a database. We collected 60 samples in total, which we used to define the light, medium and heavy dust ranges.
+To more empirically find ranges for each parameter, we created the Flask app shown above. The left image is a clean Mars photo from the AI4Mars dataset. The right photo is a dusty image from the <a href="https://figshare.com/articles/dataset/Mars32K_Clean_Dusty_Subsets_for_Dusty_Mars_Rover_Image_Restoration/33439624?file=68224333" target="_blank">Mars32K</a> dataset. The middle image is adjustable by the parameter sliders below. The goal is for the user to adjust the settings to replicate the dust appearance on the right. After submitting, the parameter values were stored in a database. We collected 60 samples in total, which we used to define the light, medium and heavy dust ranges.
 
 ### 5. Light, medium and heavy dust
 
