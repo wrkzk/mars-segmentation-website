@@ -1,5 +1,5 @@
 {{ range .Site.Menus.main.ByWeight }}
-  <a href="{{ .URL }}">{{ .Name }}</a>
+  <a href="{{ .URL }}" {{ with .Params.target }}target="{{ . }}"{{ end }}> {{- .Name -}}</a>
 {{ end }}
 
 <!-- Convert this page's translations into a dict -->

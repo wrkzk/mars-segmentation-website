@@ -39,6 +39,8 @@ relativeURLs = true
   name = "Code"
   url = "https://github.com/noazlee/cs400_image_segmentation"
   weight = 40
+  [menus.main.params]
+    target = "_blank"
 
 [[menus.main]]
   name = "Data"
