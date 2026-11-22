@@ -113,6 +113,10 @@ time {
   display: none;
 }
 
+.profile {
+    max-width: 200px;
+}
+
 html {
     scrollbar-width: none;
 }
