@@ -12,7 +12,7 @@ relativeURLs = true
 
 [params]
   custom_css = ["assets/css/styles.css"]
-  madeWith = "Made with [Hugo](https://gohugo.io)"
+  madeWith = 'Made with <a href="https://gohugo.io" target="_blank">Hugo</a>'
   favicon = "favicon.png"
 
   [params.author]
