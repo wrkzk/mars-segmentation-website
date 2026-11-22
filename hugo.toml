@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Reduced-Visibility Semantic Segmentation of Martian Terrain'
 theme = 'hugo-bearcub'
 copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
+relativeURLs = true
 
 [markup]
   [markup.goldmark]
@@ -27,7 +28,7 @@ copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
 
 [[menus.main]]
   name = "Posters"
-  pageRef = "/posters"
+  pageRef = "posters"
   weight = 30
 
 [[menus.main]]
@@ -42,10 +43,10 @@ copyright = 'Warren, Noah, Isaac, Nora (C) 2026'
 
 [[menus.main]]
   name = "References"
-  pageRef = "/references"
+  pageRef = "references"
   weight = 60
 
 [[menus.main]]
   name = "About"
-  pageRef = "/about"
+  pageRef = "about"
   weight = 70
