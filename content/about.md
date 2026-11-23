@@ -26,6 +26,6 @@ Hi! I'm Nora and right now I am a senior at Carleton majoring in Math and Comput
 
 #### Isaac Lund
 
-<img class="profile" src="/docs/isaac-profile.jpeg" alt="A photo of Isaac">
+<img class="profile" src="/docs/isaac-profile.jpg" alt="A photo of Isaac">
 
 I'm Isaac, a CS and Physics major. I'm planning to take a gap year after graduating to do research in Taiwan, before maybe pursuing a PhD in quantum computing. On this project, I focused on plotting and evaluation metrics.
