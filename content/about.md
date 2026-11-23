@@ -25,3 +25,7 @@ I am Noah and I am a CS major applying to grad school with the hopes of research
 Hi! I'm Nora and right now I am a senior at Carleton majoring in Math and Computer Science. During this project I managed data preprocessing steps and also assisted with portions of U-Net, including the visualization of the activation feature maps. On campus I am a member of Carleton's DIII Swim Team and the Director the Triathlon Committee. You can also visit my <a href="https://norawoots.github.io/" target="_blank">website</a>. We hope you enjoy learning about our Comps!
 
 #### Isaac Lund
+
+<img class="profile" src="/docs/isaac-profile.jpeg" alt="A photo of Isaac">
+
+I'm Isaac, a CS and Physics major. I'm planning to take a gap year after graduating to do research in Taiwan, before maybe pursuing a PhD in quantum computing. On this project, I focused on plotting and evaluation metrics.
